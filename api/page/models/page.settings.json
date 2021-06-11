@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "pages",
   "info": {
-    "name": "page"
+    "name": "page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -34,6 +35,9 @@
     },
     "active": {
       "type": "boolean"
+    },
+    "route": {
+      "type": "string"
     }
   }
 }
