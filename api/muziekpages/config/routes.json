@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/muziekpages",
+      "handler": "muziekpages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/muziekpages/count",
+      "handler": "muziekpages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/muziekpages/:id",
+      "handler": "muziekpages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/muziekpages",
+      "handler": "muziekpages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/muziekpages/:id",
+      "handler": "muziekpages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/muziekpages/:id",
+      "handler": "muziekpages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
